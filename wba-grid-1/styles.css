@@ -1,5 +1,5 @@
 .header{
-color: orange;
+color: rgb(255, 130, 0);
 }
 
 .grid{
@@ -12,35 +12,48 @@ grid-template-areas:
 "text5  text6   text6";
 gap: 50px 50px;
 align-items: center;
-    background-color: green;
 }
 
 .text0{
+    background-color: green;
     grid-area: "text0";
     grid-row: 1 / 3;
+    padding: 50px;
 }
 
 .text1{
+    background-color: green;
     grid-area: "text1";
+    padding: 50px;
 }
 
 .text2{
+    background-color: green;
     grid-area: "text2";
+    padding: 50px;
 }
 
 .text3{
+    background-color: green;
     grid-area: "text3";
+    padding: 50px;
 }
 
 .text4{
+    background-color: green;
     grid-area: "text4";
+    padding: 50px;
 }
 
 .text5{
+    background-color: green;
     grid-area: "text5";
+    padding: 50px;
 }
 
 .text6{
+    background-color: green;
     grid-area: "text6";
     grid-column: 2 / 4;
+    padding: 50px;
 }
